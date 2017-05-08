@@ -1,0 +1,24 @@
+<div class="parent" style="border: 1px dotted black; padding: 10px">
+  <h2>Parent scope</h2>
+  <p>
+    <strong>My name is</strong>
+    <br>
+    <input type="text" ng-model="$ctrl.person.name" />
+  </p>
+  <p>
+    <strong>I am a</strong>
+    <br>
+    <input type="text" ng-model="$ctrl.person.job" />
+  </p>
+  <p>
+    <strong>I like to eat</strong>
+    <br>
+    <input type="text" ng-model="$ctrl.person.food" />
+  </p>
+
+  <child
+    string-binding="My name is {{ $ctrl.person.name }}"
+    one-way-binding="$ctrl.person.job"
+    two-way-binding="$ctrl.person.food">
+  </child>
+</div>
