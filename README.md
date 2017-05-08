@@ -10,4 +10,4 @@ This repo shows a basic example of passing data between a Parent and Child compo
 Pull this repo down, run `npm install`, then run `npm run dev-server`. You should be able to load it up in your browser and mess around with the input fields to see the different bindings in action.
 
 
-More info about these bindings, and a fourth type of binding can be found here:
+More info about these bindings, and a fourth type of binding can be found here: [Angular Bindings](http://stackoverflow.com/questions/35855758/angularjs-data-binding-types)
