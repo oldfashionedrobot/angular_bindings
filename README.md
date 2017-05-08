@@ -11,3 +11,5 @@ Pull this repo down, run `npm install`, then run `npm run dev-server`. You shoul
 
 
 More info about these bindings, and a fourth type of binding can be found here: [Angular Bindings](http://stackoverflow.com/questions/35855758/angularjs-data-binding-types)
+<br>
+The Angular docs for bindings: [Angular Docs](https://docs.angularjs.org/api/ng/service/$compile#-scope-)
